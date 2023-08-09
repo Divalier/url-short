@@ -1,0 +1,117 @@
+header {
+  height: 20%;
+  position: absolute;
+}
+.hdescribe {
+  font-family: Source Sans Pro;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 15px;
+}
+.hmenu {
+  display: none;
+}
+.hlines {
+  color: #a0a1a3;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 15px;
+  width: 300px;
+}
+.hmenu {
+  width: 30px;
+}
+.hmenu:hover {
+  background-color: #a0a1a3;
+}
+.hlines li:hover {
+  text-decoration: underline;
+}
+.hlogin {
+  width: 120px;
+  height: 44px;
+  background: none;
+  border: none;
+  border-radius: 44px;
+  align-self: center;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #a0a1a3;
+  transition: 1s;
+  margin: 0px;
+}
+.hsignup {
+  width: 120px;
+  height: 44px;
+  background: #9be8e0;
+  border: none;
+  border-radius: 44px;
+  align-self: center;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  transition: 1s;
+}
+
+.hb button:hover {
+  scale: 1.1;
+}
+@media only screen and (max-width: 780px) {
+  .header {
+    flex-direction: column !important;
+    height: 370px;
+  }
+  .hmenu {
+    display: flex;
+  }
+  .htop {
+    width: 86vw;
+    height: auto !important;
+    height: 40px !important;
+    align-items: center !important;
+  }
+  #menus {
+    display: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .hsem {
+    width: 86vw;
+    flex-direction: column !important;
+    justify-content: space-around;
+    height: 300px;
+    background-color: hsl(255, 11%, 22%);
+    border-radius: 10px;
+  }
+  header ul {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center !important;
+    margin: 0px !important;
+    padding: 0px;
+    justify-content: space-around;
+    height: 120px;
+  }
+  header ul li {
+    margin: 0px !important;
+    padding: 0px;
+  }
+  .hb {
+    display: flex;
+    width: 86 vw;
+    justify-content: center;
+    algin-items: center;
+    flex-direction: column !important;
+  }
+  .hsignup {
+    width: 80%;
+  }
+}

@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>urlshort</title>
+    <link rel="icon" type="image/x-icon" href="./image/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body class="tcenter">
+    <header class="header flex row pd fw jbetween atc">
+      <div class="htop flex row jbetween">
+        <div class="hdescribe">Shortly</div>
+        <div class="hmenu flex col">
+          <img
+            src="image/menu-svgrepo-com.svg"
+            alt=""
+            onclick="menudisplay()"
+          />
+        </div>
+      </div>
+      <div class="hsem flex row jcenter ascenter" id="menus">
+        <ul class="hlines flex row listn jcenter ascenter m0 jbetween">
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Resources</li>
+        </ul>
+        <hr />
+        <button class="hlogin">Login</button>
+        <button class="hsignup">Sign Up</button>
+      </div>
+    </header>
+    <main>
+      <!-- section main -->
+      <section class="main flex col jend fh">
+        <div class="mainview flex row fh">
+          <div class="maindes flex col jcenter ascenter atstart">
+            <p class="flex fstart astart">More than just shorter links</p>
+            <p class="mainlast">
+              build your brand's recognition and get detailed insights on how
+              your links are performing
+            </p>
+            <button class="mainbu astart">Get started</button>
+          </div>
+          <div class="mainimg flex row jend ascenter">
+            <img src="./image/illustration-working.png" alt="wolking" />
+          </div>
+        </div>
+      </section>
+      <!-- section shorten -->
+      <section class="short flex col jcenter ascenter pd fw">
+        <div class="shortin flex col jcenter ascenter">
+          <div class="w flex row jcenter ascenter">
+            <div class="shortcont flex w row jcenter ascenter">
+              <input
+                class="shortinp"
+                id="shortin"
+                type="text"
+                placeholder="Shorten a link here ..."
+              />
+              <div class="pleaseo"><em>please add a link</em></div>
+              <button class="shortit" onclick="short()">Shorten it!</button>
+            </div>
+          </div>
+          <div class="pleaset"><em>please add a link</em></div>
+        </div>
+      </section>
+      <!-- section output -->
+      <section
+        class="output short flex col jcenter ascenter pd fw"
+        id="output"
+      ></section>
+      <!-- section stastitics -->
+      <section class="stat">
+        <div class="statdes flex col">
+          <div>Advanced stastitics</div>
+          <div>
+            <p>
+              Track how links are performing across the web with ou advanced
+              statistics dashboard
+            </p>
+          </div>
+        </div>
+        <div class="cards flex col jcenter ascenter atc fw pd">
+          <div class="startgreen flex ascenter w"></div>
+          <div class="cardsc flex row jbetween">
+            <div class="card">
+              <div class="cardsvg">
+                <img src="image/icon-brand-recognition.svg" alt="" />
+              </div>
+              <p>Brand recognition</p>
+              <p>
+                Boost your brand recognition with each click. Generic links
+                don't mean a thing.Branded links help instil confidence in your
+                content
+              </p>
+            </div>
+            <div class="card">
+              <div class="cardsvg">
+                <img src="image/icon-detailed-records.svg" alt="" />
+              </div>
+              <p>Detailed Records</p>
+              <p>
+                Gain insights into who is clickin your links,knowing when and
+                where people enegege with your content helps inform better
+                decisions.
+              </p>
+            </div>
+            <div class="card">
+              <div class="cardsvg">
+                <img src="image/icon-fully-customizable.svg" alt="" />
+              </div>
+              <p>Fully Customizable</p>
+              <p>
+                Impove brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section boost -->
+      <section class="boost flex col jcenter ascenter pd fw bg">
+        <p>Boost your Links Today</p>
+        <button class="mainbu astart">Get started</button>
+      </section>
+    </main>
+    <footer class="footer flex row jbetween fw">
+      <div class="hdescribe">Shortly</div>
+      <div class="footerf flex row">
+        <div>
+          <p>Features</p>
+          <ul class="flex col listn jstart atstart">
+            <li><a href="">Link Shortening</a></li>
+            <li><a href="">Braded Links</a></li>
+            <li><a href="">Analytics</a></li>
+          </ul>
+        </div>
+        <div>
+          <p>Features</p>
+          <ul class="flex col listn jstart atstart">
+            <li><a href="">Link Shortening</a></li>
+            <li><a href="">Braded Links</a></li>
+            <li><a href="">Analytics</a></li>
+          </ul>
+        </div>
+        <div>
+          <p>Features</p>
+          <ul class="flex col listn jstart atstart">
+            <li><a href="">Link Shortening</a></li>
+            <li><a href="">Braded Links</a></li>
+            <li><a href="">Analytics</a></li>
+          </ul>
+        </div>
+        <div>
+          <p>Features</p>
+          <ul class="flex col listn jstart atstart">
+            <li><a href="">Link Shortening</a></li>
+            <li><a href="">Braded Links</a></li>
+            <li><a href="">Analytics</a></li>
+          </ul>
+        </div>
+        <div class="flex row img jbetween">
+          <img src="image/icon-facebook.svg" alt="facebook" />
+          <img src="image/icon-twitter.svg" alt="twiter" />
+          <img src="image/icon-pinterest.svg" alt="pint" />
+          <img src="image/icon-instagram.svg" alt="instartgram" />
+        </div>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

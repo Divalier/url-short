@@ -1,0 +1,95 @@
+body {
+  margin: 0%;
+}
+.w {
+  width: 100%;
+}
+.h {
+  height: 100%;
+}
+.pd {
+  padding: 0% 7% 0% 7%;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.col {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.jcenter {
+  justify-content: center;
+}
+.jbetween {
+  justify-content: space-between;
+}
+.jstart {
+  justify-content: flex-start;
+}
+.jend {
+  justify-content: flex-end;
+}
+
+.atc {
+  align-items: center;
+}
+.ascenter {
+  align-self: center;
+}
+.atbase {
+  align-items: baseline !important;
+}
+.atstart {
+  align-items: flex-start;
+}
+.astart {
+  align-self: flex-start;
+}
+.asend {
+  align-self: flex-end;
+}
+.asbasline {
+  align-self: baseline;
+}
+.listn {
+  list-style-type: none;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.m0 {
+  margin: 0px;
+}
+.border {
+  border: solid black 2px;
+}
+
+.bg {
+  background-color: yellow;
+}
+
+.fw {
+  width: 86%;
+}
+.fh {
+  height: 100%;
+}
+hr {
+  display: none;
+  color: black;
+}
+
+@media only screen and (max-width: 780px) {
+  hr {
+    display: block !important;
+    width: 80vw !important;
+    opacity: 0.3;
+  }
+}
